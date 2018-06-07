@@ -1,0 +1,143 @@
+.container {
+	width: 200px;
+	background: #fff;
+	border: 2px solid #000;
+	height: 215px;
+	position: relative;
+	margin: 0px auto;
+    overflow:hidden;
+}
+
+.python-body {
+	background: #3A6F9B;
+	width: 130px;
+	height: 35px;
+	position: absolute;
+	margin: auto;
+	border-radius: 50px 0px 50px 0px/ 90px 0px 60px 90px;
+}
+
+.python1-body {
+	background: #3A6F9B;
+	left: -45;
+	right: 0px;
+	top: 70px;
+}
+
+.python2-body {
+	background: #ffd85b;
+	right: -45;
+	left: 0px;
+	bottom: 70px;
+
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+}
+
+.python-head {
+	width: 80px;
+	height: 40px;
+	position: absolute;
+	margin: auto;
+	border-radius: 35px 35px 0px 2px/13px 20px 0px 5px;
+	z-index: 101;
+}
+
+.python1-head {
+	background: #3A6F9B;
+	left: 5;
+	top: 15px;
+	right: 0px;
+}
+
+.python2-head {
+	background: #ffd85b;
+	right: 5px;
+	bottom: 15px;
+	left: 0px;
+
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+}
+
+.python-neck {
+	width: 40px;
+	height: 80px;
+	position: absolute;
+	margin: auto;
+	z-index: 100;
+	border-radius: 0px 35px 0px 0px/0px 20px 0px 0px;
+}
+
+.python1-neck {
+	background: #3A6F9B;
+	left: 45px;
+	right: 0px;
+	top: 15px;
+}
+
+.python2-neck {
+	background: #ffd85b;
+	left: 0px;
+	right: 45px;
+	bottom: 15px;
+
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+}
+
+.python-eye {
+	height: 15px;
+	width: 15px;
+	position: absolute;
+	background: #fff;
+	margin: auto;
+	border-radius: 30px;
+	z-index: 102;
+}
+
+.python1-eye {
+	left: -40px;
+	right: 0px;
+	top: 30px;
+}
+
+.python2-eye {
+	left: 0px;
+	right: -40px;
+	bottom: 30px;
+}
+
+.python-nail {
+	width: 40px;
+	height: 70px;
+	position: absolute;
+	margin: auto;
+	z-index: 100;
+	border-radius: 50px 0px 0px 50px/ 90px 90px 60px 50px;
+}
+
+.python1-nail {
+	background: #3A6F9B;
+	left: -135;
+	right: 0px;
+	top: 70px;
+}
+
+.python2-nail {
+	background: #ffd85b;
+	left: 0px;
+	right: -135px;
+	bottom: 70px;
+
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+}

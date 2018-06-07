@@ -1,0 +1,27 @@
+body {
+	margin: 0px auto;
+}
+
+.container-site {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+}
+
+.container1 {
+	background-image: url('un1.jpg');
+	background-size: cover;
+	color: #fff;
+	font-size: 60px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.container2 {
+	background-image: url('un2.jpg');
+	background-size: cover;
+}

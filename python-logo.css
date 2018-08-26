@@ -1,3 +1,15 @@
+img {
+	height: 20px;
+	width: 20px;
+}
+
+.divisor {
+    font-weight:  bold;
+    font-size:  25px;
+    margin: 5px;
+
+}
+
 #github-link {
 	padding: 20px;
 	text-align: center;

@@ -10,11 +10,6 @@ img {
 
 }
 
-#github-link {
-	padding: 20px;
-	text-align: center;
-}
-
 .container {
 	width: 800px;
 	background: #fff;
@@ -36,7 +31,6 @@ img {
 
 .python-title {
 	position: absolute;
-	margin: 25px auto;
 	left: 280px;
 	font-size: 170px;
 	top: 0px;

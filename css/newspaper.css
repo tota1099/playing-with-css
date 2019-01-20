@@ -1,0 +1,92 @@
+#container {
+    display: flex;
+    align-items: center;
+    min-height: 100%;
+    margin: 30px auto;
+}
+
+.newspaper {
+    background: rgb(184, 180, 192);
+    width: 90%;
+    min-height: 80%;
+    margin: 0 auto;
+    box-shadow: -0px 0px 70px 10px  rgba(189, 192, 185, 0.77);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    height: 70px;
+    margin: 0px 20px;
+}
+
+.repo-links {
+    flex: 4;
+    text-align: right;
+}
+
+.repo-links img {
+    width: 25px;
+    margin: 0px 5px
+}
+
+.repo-links a {
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+    font-weight: 
+}
+
+.navbar-links {
+    flex: 10;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    font-family: 'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    letter-spacing: 1px;
+    font-weight: 400;
+    background: rgb(32, 3, 90, 0.75);
+    padding: 10px;
+    color: #fff;
+}
+
+#content {
+    min-height: 100px;
+    background: rgb(153, 147, 165);
+    margin: 20px;
+    display: flex;
+    padding: 30px;
+}
+
+.content-1 {
+    flex: 1;
+    flex-direction: column;
+}
+
+.content-1 .card {
+    height: 30%;
+    width: 100%;
+    border: 1px solid #fff;
+    margin: 10px 0px;
+}
+
+.content-1 .card1 {
+    background-image: url('../img/renanportosite.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content-1 .card2 {
+    background-image: url('../img/calculadoraimc.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content-2 {
+    flex: 3;
+}

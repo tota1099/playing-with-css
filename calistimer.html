@@ -18,62 +18,97 @@
     </head>
     <body>
 
-        <nav class="nav-extended">
+        <nav class="nav-extended navbar-fixed-top">
             <div class="nav-wrapper">
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">JavaScript</a></li>
+                <li><a href="#" class="black-text" rel="noopener noreferrer" target="_blank"><i class="fab fa-lg fa-google-play"></i> Google Play</a></li>
+                <li><a href="https://github.com/tota1099/CalisTimer" class="black-text" rel="noopener noreferrer" target="_blank"><i class="fab fa-lg fa-github"></i> GitHub</a></li>
                 </ul>
             </div>
         </nav>
     
         <ul class="sidenav" id="mobile-demo">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">JavaScript</a></li>
+            <li><a href="#" class="black-text" rel="noopener noreferrer" target="_blank"><i class="fab fa-google-play"></i> Google Play</a></li>
+            <li><a href="https://github.com/tota1099/CalisTimer" class="black-text" rel="noopener noreferrer" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
         </ul>
 
         <div class="container-fluid">
-            <div class="row container-full-height valign-wrapper">
-                <div class="col s12 m12 valign-wrapper mobile-container">
-                    <img src="img/app.png" height="70%">
+            <div class="row">
+                <div class="col s12 m6 container-full-height valign-wrapper mobile-container">
+                    <img src="img/app.png" style="height:80vh">
                 </div>
-                <div class="col s12 m12 valign-wrapper about-container">
-                    <h1>Hello World</h1>
+                <div class="col s12 m6 container-full-height center-align about-container">
+                    <h1 class="about-container-title">Callis Timer</h1>
+                    <h6 class="about-container-text">
+                        It's a simple and easy to use timer app for all common functional fitness workouts: AMRAP (As many rounds as possible), For Time, and EMOM (Every minute on a minute). 
+                        Just choose the workout type, set the duration and GO!
+                    </h6>
                 </div>
             </div> 
         </div>
 
-        <footer class="page-footer orange">
+        <div class="container">
+            <div class="section">
+        
+                <!--   Icon Section   -->
+                <div class="row container-full-height">
+
+                    <div class="col s12 m12 center-align">
+                        <h2>Resources</h2>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="icon-block">
+                        <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+                        <h5 class="center">Speeds up development</h5>
+            
+                        <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+                        </div>
+                    </div>
+            
+                    <div class="col s12 m4">
+                        <div class="icon-block">
+                        <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+                        <h5 class="center">User Experience Focused</h5>
+            
+                        <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+                        </div>
+                    </div>
+            
+                    <div class="col s12 m4">
+                        <div class="icon-block">
+                        <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+                        <h5 class="center">Easy to work with</h5>
+            
+                        <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+
+        <footer class="page-footer teal">
             <div class="container">
                 <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="white-text">Renan Porto</h5>
-                    <p class="grey-text text-lighten-4">
-                        Software developer and passionate about sports. Always in search of knowledge and new challenges, 
-                        focused on solutions and personal development.
-                    </p>
-                </div>
-                <div class="col l6 s12">
-                    <h5 class="white-text">Contact</h5>
-                    <ul>
-                        <li>
-                            <a class="white-text" href="https://github.com/tota1099" rel="noopener noreferrer" target="_blank">
-                                <i class="fab fa-2x fa-github"></i>
-                            </a>
-                            <a class="white-text" href="https://www.linkedin.com/in/renan-de-medeiros-porto" rel="noopener noreferrer" target="_blank">
-                                <i class="fab fa-2x fa-linkedin"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Renan Porto</h5>
+                        <p class="grey-text text-lighten-4">
+                            Software developer and passionate about sports. Always in search of knowledge and new challenges, 
+                            focused on solutions and personal development.
+                        </p>
+                    </div>
                 </div>
             </div>
             <div class="footer-copyright">
                 <div class="container">
-                Made by <a class="orange-text text-lighten-3" rel="noopener noreferrer" target="_blank" href="http://renanporto.com.br">Renan Porto</a>
+                Made by <a class="orange-text text-lighten-2" rel="noopener noreferrer" target="_blank" href="http://renanporto.com.br">Renan Porto</a>
+                <a class="white-text" href="https://github.com/tota1099" rel="noopener noreferrer" target="_blank">
+                    <i class="fab fa fa-github"></i>
+                </a>
+                <a class="white-text" href="https://www.linkedin.com/in/renan-de-medeiros-porto" rel="noopener noreferrer" target="_blank">
+                    <i class="fab fa fa-linkedin"></i>
+                </a>
                 </div>
             </div>
         </footer>

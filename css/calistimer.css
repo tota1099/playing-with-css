@@ -2,12 +2,18 @@
     font-size: inherit;
 }
 
+body {
+    background-color: papayawhip;
+}
+
 .navbar-fixed-top {
     position: absolute;
+    background-color: transparent;
+    box-shadow: none;
 }
 
 .container-full-height {
-    height: 100vh
+    min-height: 100vh !important
 }
 
 .mobile-container {
@@ -19,6 +25,20 @@
 }
 
 .about-container {
-    height: 100%;
     justify-content: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-weight: 200;
+}
+
+.about-container-text {
+    font-weight: 200;
+    padding: 10px;
+    line-height: 1.5;
+    font-size: 1.55rem;
+}
+
+.about-container-title {
+    font-size: 5.2rem;
 }

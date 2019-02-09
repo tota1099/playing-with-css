@@ -2,10 +2,6 @@
     font-size: inherit;
 }
 
-body {
-    background-color: papayawhip;
-}
-
 .navbar-fixed-top {
     position: absolute;
     background-color: transparent;
@@ -21,7 +17,7 @@ body {
     justify-content: center;
     background-image: url('../img/bg-mobile.jpeg');
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
 }
 
 .about-container {
@@ -41,4 +37,33 @@ body {
 
 .about-container-title {
     font-size: 5.2rem;
+}
+
+.read-more, .read-more:hover, .read-more:focus {
+    cursor: pointer;
+    color: black;
+}
+
+.no-pointer-events {
+    pointer-events: none;
+}
+
+#resources {
+    background-image: url('../img/running.jpeg');
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.top-container {
+    margin-bottom: -20px;
+}
+
+#resources-content {
+    background: black;
+    opacity: 0.9;
+    padding: 0px 20px;
 }

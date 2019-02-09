@@ -9,6 +9,8 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
         <!-- Compiled and minified CSS Fontawesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/solid.css" integrity="sha384-r/k8YTFqmlOaqRkZuSiE9trsrDXkh07mRaoGBMoDcmA58OHILZPsk29i2BsFng1B" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/regular.css" integrity="sha384-IG162Tfx2WTn//TRUi9ahZHsz47lNKzYOp0b6Vv8qltVlPkub2yj9TVwzNck6GEF" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/brands.css" integrity="sha384-BKw0P+CQz9xmby+uplDwp82Py8x1xtYPK3ORn/ZSoe6Dk3ETP59WCDnX+fI1XCKK" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/fontawesome.css" integrity="sha384-4aon80D8rXCGx9ayDt85LbyUHeMWd3UiBaWliBlJ53yzm9hqN21A+o1pqoyK04h+" crossorigin="anonymous">
 
@@ -33,7 +35,7 @@
             <li><a href="https://github.com/tota1099/CalisTimer" class="black-text" rel="noopener noreferrer" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
         </ul>
 
-        <div class="container-fluid">
+        <div class="container-fluid top-container">
             <div class="row">
                 <div class="col s12 m6 container-full-height valign-wrapper mobile-container">
                     <img src="img/app.png" style="height:80vh">
@@ -43,16 +45,23 @@
                     <h6 class="about-container-text">
                         It's a simple and easy to use timer app for all common functional fitness workouts: AMRAP (As many rounds as possible), For Time, and EMOM (Every minute on a minute). 
                         Just choose the workout type, set the duration and GO!
+
+                        <br><br>
+
+                        <a class="read-more" href="#resources">
+                            <i class="fas fa-2x fa-caret-down no-pointer-events"></i>
+                        </a>
+                        
                     </h6>
                 </div>
             </div> 
         </div>
 
-        <div class="container">
-            <div class="section">
+        <div class="container-fluid scrollspy container-full-height" id="resources">
+            <div class="section container" id="resources-content">
         
                 <!--   Icon Section   -->
-                <div class="row container-full-height">
+                <div class="row">
 
                     <div class="col s12 m12 center-align">
                         <h2>Resources</h2>
@@ -124,13 +133,10 @@
     </body>
 </html>
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('.sidenav');
-        var instances = M.Sidenav.init(elems);
-    });
 
     $(document).ready(function(){
         $('.sidenav').sidenav();
+        $('.scrollspy').scrollSpy();
     });
                 
 </script>

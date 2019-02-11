@@ -70,4 +70,14 @@
 
 .footer-copyright {
     padding-bottom: 20px;
-}=
+}
+
+.disabled {
+    background: #ddd;
+    pointer-events: none;
+    color: rgb(84, 84, 84) !important;
+}
+
+.disabled-text {
+    color: rgb(84, 84, 84) !important;
+}

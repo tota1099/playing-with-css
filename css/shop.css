@@ -1,0 +1,9 @@
+/* hack for carousel */
+
+.carousel-item {
+    height: 90%;
+}
+
+.carousel-item img{
+    height: 100%;
+}
